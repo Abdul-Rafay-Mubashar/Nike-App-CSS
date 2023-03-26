@@ -1,0 +1,1216 @@
+@font-face {
+    font-family: "Nike futura";
+    src: url("Nike-Futura.woff2") format('woff2');
+}
+@font-face {
+    font-family: "Nike TG";
+    src: url("Nike-TG.woff2") format('woff2');
+}
+@media screen and (max-width:1008px) {
+    .box4{
+        display: none;
+    }
+}
+@media screen and (max-width:963px) {
+    .box3{
+        display: none;
+    }
+}
+@media screen and (max-width:950px) {
+    .box2{
+        display: none;
+    }
+    .box1{
+        display: none;
+    }
+    .header{
+        display: none;
+    }
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    width: 100%;
+    height: 36px;
+    background-color: #F5F5F5;
+}
+.header1{
+    width: 100%;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+}
+.header1a{
+    width: 94.58%;
+    height: 36px;
+    display: flex;
+    /* justify-content: center; */
+    max-width: 1846px;
+}
+.ful{
+    width: 50%;
+    height: 36px;
+}
+.ful2{
+    width: 50%;
+    height: 36px;
+    display: flex;
+    justify-content: flex-end;
+    /* padding-right: 19px; */
+    font-family: Helvetica;
+}
+.header1a1{
+    width: 96px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+}
+.a1a{
+    width: 24px;
+    height: 36px;
+    padding-left: 12px;
+    padding-right: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a1a1{
+    width: 24px;
+    height: 24px;
+}
+.a1a1:hover{
+    fill: #767575;
+}
+.b{
+    width: 174.31px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.b1{
+    width: 51.81px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* margin-left: 18px; */
+}
+.b1a{
+    width: 40.69px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+.b1b{
+    width: 3.13px;
+    height: 12px;
+    margin-left: 4px;
+    margin-right: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b1c{
+    width: 40.69px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.b1d{
+    width: 37.69px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.kill{
+    height: 800px;
+    width: 100%;
+}
+.pre{
+    width: 100%;
+    height: 60px;
+}
+.pre1{
+    width: 100%;
+    height: 69px;
+    display: flex;
+    justify-content: center;
+}
+.pre1a{
+    width: 94.58%;
+    max-width: 1846px;
+    height: 69px;
+    display: flex;
+    flex-direction: row;
+}
+.pre1a1{
+    width: 84px;
+    height: 69px;
+}
+.pre1a1a{
+    width: 84%;
+    height: 69px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.pre1a1a1{
+    width: 60px;
+    height: 60px;
+}
+.pre1a2{
+    width: 90.20%;
+    height: 69px;
+    display: flex;
+    flex-direction: row;
+}
+.pre1a2a{
+    width: 96.79%;
+    height: 60px;
+    padding-left: 16px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pre1a2a1{
+    width: 62.13%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    width: 140px;
+    height: 60px;
+    /* margin-left: 200px; */
+}
+.box2{
+    width: 56px;
+    height: 60px;
+}
+.box3{
+    width: 80px;
+    height: 60px;
+}
+.box4{
+    width: 56px;
+    height: 60px;
+}
+.box1a{
+    width: 116px;
+    height: 24px;
+    padding-top: 16px ;
+    padding-bottom: 18px;
+    /* padding-left:12px ; */
+    padding-right:12px ;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Helvetica;
+    display: flex;
+    align-items: center;
+}
+.box2a{
+    width: 32px;
+    height: 24px;
+    padding-top: 16px ;
+    padding-bottom: 18px;
+    /* padding-left:12px ; */
+    padding-right:12px ;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Helvetica;
+    display: flex;
+    align-items: center;
+}
+.box3a{
+    width: 56px;
+    height: 24px;
+    padding-top: 16px ;
+    padding-bottom: 18px;
+    /* padding-left:12px ; */
+    padding-right:12px ;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Helvetica;
+    display: flex;
+    align-items: center;
+}
+.box4a{
+    width: 32px;
+    height: 24px;
+    padding-top: 16px ;
+    padding-bottom: 18px;
+    /* padding-left:12px ; */
+    padding-right:12px ;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Helvetica;
+    display: flex;
+    align-items: center;
+}
+.sea{
+    width: 180px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    background-color: #F5F5F5;
+    border-radius: 25px;
+}
+.sea1{
+    width: 84px;
+    height: 24px;
+    background-color:#F5F5F5;
+    border-radius: 25px;
+    margin-top: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: 10px;
+    border: none;
+}
+.sea2{
+    width: 24px;
+    height: 24px;
+    margin-top: 4px;
+    border: none;
+    border-radius: 15px;
+}
+.one{
+    width: 24px;
+    height: 24px;
+    border: none;
+}
+.sea1::placeholder{
+    font-size: 16px;
+    color: #e5e5e5de;
+    font-family:Helvetica;
+}
+.side{
+    width: 84px;
+    height: 57px;
+    padding-top: 12px;
+}
+.pro{
+    width: 100%;
+    height: 58px;
+    background-color: #F5F5F5;
+}
+.pr{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.pr1{
+    width: 93.85%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 1824px;
+    align-items: center;
+}
+.pr1a{
+    width: 100%;
+}
+.pr1a1{
+    width: 100%;
+}
+.pr1b{
+    width: 75.03%;
+    height: 177px;
+    margin-top: 48px;
+}
+.pr1ba{
+    width: 100%;
+    height: 60px;
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 500;
+    font-family: Helvetica;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nike futura';
+}
+.pr1bb{
+    width: 100%;
+    height: 24px;
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Helvetica;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pr1bc{
+    width: 100%;
+    height: 45px;
+    margin-top: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bc1{
+    width: 74px;
+    height: 24px;
+    padding: 8px 20px;
+    border: 1.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #F5F5F5;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Helvetica;
+
+}
+.nike{
+    width: 100%;
+    height: auto;
+    margin-top: 84px;
+    display: flex;
+    justify-content: center;
+}
+.nik{
+    width: 93.85%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 1824px;
+    align-items: center;
+}
+.nik1{
+    width: 100%;
+    height: 52px;
+}
+.nik1a{
+    width: 100%;
+    height: 28px;
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Helvetica;
+}
+.nik2{
+    width: 100%;
+}
+.nik2a{
+    width: 100%;
+    max-height: 950px;
+}
+.nik3{
+    width: 75.03%;
+    height: 237px;
+    margin-top: 48px;
+    margin-bottom: 8px;
+}
+.h4{
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    font-family: 'Nike futura';
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.h5{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h{
+    width: 100%;
+    height: 24px;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Helvetica;
+}
+.hh{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+.hh1{
+    width: 80px;
+    height: 39px;
+    background-color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Helvetica;
+    border-radius: 25px;
+    color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 69.69%;
+    height: 177px;
+    margin-top: -222px;
+    margin-left: 7.17%;
+    max-width: 1368px;
+}
+.bo1{
+    width: 100%;
+    height: 60px;
+    margin-bottom: 8px;
+    color: white;
+    font-size: 72px;
+    display: flex;
+    align-items: center;
+    font-family: 'Nike futura';
+}
+.bo2{
+    height: 24px;
+    width: 100%;
+    margin-top: 24px;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    font-family: Helvetica;
+}
+.bo3{
+    width: 100%;
+    height: 45px;
+    margin-top: 24px;
+    display: flex;
+    align-items: flex-end;
+}
+.bo3a{
+    height: 39px;
+    width: 80px;
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    font-size: 16px;
+    font-family: Helvetica;
+}
+.boxab{
+    height: 17px;
+    width: 100%;
+    display: flex;
+    justify-content: center;    
+}
+.boxa{
+    width: 100%;
+    height: 17px;
+    max-width: 1824px;
+}
+.third{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 67px;
+}
+.third1{
+    width: 92.9%;
+    height: auto;
+    max-width: 1824px;
+}
+.th1{
+    width: 100%;
+    height: 52px;
+}
+.th1a{
+    width: 100%;
+    height: 28px;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Helvetica;
+}
+.th2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1824px;
+}
+.th2a{
+    width: 49.6%;
+}
+.th2a1{
+    width: 100%;
+    max-height: 950px;
+}
+.hoxab{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+}
+.hoxa{
+    width: 92.9%;
+    height: 25px;
+    max-width: 1824px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+}
+.hoxa1{
+    width: 49.6%;
+    height: 125px;
+    height: auto;
+
+}
+.hoxa2{
+    width: 49.6%;
+    height: 125px;
+    height: auto;
+
+}
+.aa1a{
+    width: 75%;
+    height: 125px;
+    margin-left: 7.9%;
+    display: flex;
+    flex-direction: column;
+    margin-top: -172px;
+    height: auto;
+}
+.aa1t{
+    width: 75%;
+    height: 125px;
+    margin-left: 7.9%;
+    display: flex;
+    flex-direction: column;
+    margin-top: -172px;
+    height: auto;
+}
+.aa1a1{
+    width: 100%;
+    height: 56px;
+    margin-bottom: 8px;
+    height: auto;
+}
+.aa1a2{
+    width: 100%;
+    height: 45px;
+    margin-top: 24px;
+    height: auto;
+}
+.aa1a11{
+    width: 100%;
+    height: auto;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Helvetica;
+    color: white;
+}
+.four{
+    width: 100%;
+    height: auto;
+    margin-top: 59px;
+    display: flex;
+    justify-content: center;
+}
+.four1{
+    width: 92.9%;
+    height: auto;
+    max-width: 1824px;
+}
+.four1a{
+    width: 100%;
+    height: 52px;
+}
+.four1a1{
+    width: 100%;
+    height: 28px;
+    font-size: 28px;
+    font-weight: 500;
+    font-family: Helvetica;
+}
+.four1b{
+    width: 100%;
+    max-height: 950px;
+}
+.four1b1{
+    width: 100%;
+    max-height: 950px;
+}
+.fbox{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.fbox1{
+    width: 92.9%;
+    height: auto;
+    max-width: 1824px;
+}
+.fbox1a{
+    width: 40%;
+    height: 182px;
+    margin-left: 48px;
+    margin-top: -202px;
+}
+.x1a1{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 8px;
+    font-size: 48px;
+    font-weight: 500;
+    font-family: 'Nike futura';
+    display: flex;
+    align-items: center;
+}
+.x1a2{
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+    height: 48px;
+
+}
+.aa1a2g{
+    width: 100%;
+    height: 45px;
+    margin-top: 24px;
+    /* height: auto; */
+}
+.five{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 84px;
+}
+.five1{
+    width: 92%;
+    height: auto;
+    max-width: 1824px;
+}
+.v1{
+    width: 100%;
+    height: 52px;
+}
+.v1a{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Helvetica;
+}
+.v2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1824px;
+}
+.v2a{
+    width: 49.6%;
+    height: auto;
+}
+.v2a1{
+    width: 100%;
+}
+.vbox{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.vbox1{
+    width: 92%;
+    height: auto;
+    max-width: 1824px;
+    display: flex;
+    justify-content: space-between
+}
+.vbox1a{
+    width: 49.6%;
+    height: auto;
+}
+.ox1a1{
+    width: 75%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: -143px;
+    margin-left: 46px;
+}
+.ox1a2{
+    width: 75%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: -143px;
+    margin-left: 46px;
+}
+.ox1a1a{
+    width: 100%;
+    height: 28px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+    color: white;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+}
+.six{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 84px;
+}
+.six1{
+    width: 92%;
+    height: auto;
+    max-width: 1824px;
+}
+.six1a{
+    width: 100%;
+    height: 52px;
+}
+.six1a1{
+    width: 100%;
+    height: 28px;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Helvetica;
+}
+.six1b{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.six1b1{
+    width: 32.8%;
+    height: auto;
+    margin-right: 12px;
+}
+.six1b2{
+    width: 32.8%;
+    height: auto;
+}
+.six1b1a{
+    width: 100%;
+}
+.lop{
+
+    width: 100%;
+    max-height: 806px;
+}
+.seven{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.seven1{
+    width: 92%;
+    height: 24px;
+    max-width: 1824px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.seven1a{
+    width: 32.8%;
+    height: 24px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Helvetica;
+}
+.eight{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 125px;
+}
+.eight1{
+    width: 64.4%;
+    height: auto;
+    max-width: 880px;
+    display: flex;
+    flex-direction: row;
+}
+.eight1a{
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.t1a1{
+    width: 100%;
+    height: 24px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-family: Helvetica;
+    font-weight: 500;
+}
+.t1a2{
+    width: 100%;
+    height: 144px;
+}
+.lik{
+    width: 100%;
+    height: 24px;
+    margin-bottom: 12px;
+    color: #767575;
+    font-size: 16px;
+    font-family: Helvetica;
+    font-weight: 500;
+}
+.eig2{
+    width: 100%;
+    display: none;
+}
+.eig2a{
+    width: 100%;
+    /* padding-left: 20px; */
+}
+.eone{
+    width: 100%;
+    height: 24px;
+    margin-bottom: 24px;
+}
+.foot{
+    width: 100%;
+    height: 366px;
+    background-color: #111111;
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.foote{
+    width: 100%;
+    height: 326px;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    width: 100%;
+    height: 250px;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+}
+.foo{
+    width: 74%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+}
+.foo1{
+    width: 26%;
+    height: 37px;
+    display: flex;
+    flex-direction: row;
+    padding-right: 35px;
+    justify-content: flex-end;
+}
+.fooa{
+    width: 232px;
+    height: 250px;
+    margin-left: 40px;
+    margin-right: 9px;
+}
+.foob{
+    width: 232px;
+    height: 250px;
+    margin-right: 9px;
+}
+.fooc{
+    width: 232px;
+    height: 250px;
+    margin-right: 9px;
+}
+.fla{
+    width: 100%;
+    height: 32px;
+    margin-bottom: 3px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Nike TG';
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.fb1{
+    width: 100%;
+    height: 24px;
+    margin-bottom: 3px;
+    font-family: 'Nike TG';
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+.fb2{
+    width: 100%;
+    height: 28px;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+    font-family: Helvetica;
+    font-size: 12px;
+    color: #767575;
+}
+.foo1a{
+    width: 30px;
+    height: 37px;
+    margin-left: 16px;
+    display: flex;
+    justify-content: center;
+}
+.o1a{
+    width: 30px;
+    height: 30px;
+    fill: #767575;
+}
+.last{
+    width: 100%;
+    height: 61px;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+.o1a:hover{
+    fill: white;
+}
+.fb2:hover{
+    color: white;
+}
+.lik:hover{
+    color: black;
+}
+@media screen and (max-width:600px) {
+    .footer{
+        flex-direction: column;
+    }
+    .foo1{
+        justify-content: center;
+        margin-left: 39px;
+        margin-top: 16px;
+    }
+    .fb2{
+        display: none;
+    }
+    .foo{
+        flex-direction: column;
+        height: auto;
+    }
+    .foot{
+        height: auto;
+    }
+    .foote{
+        height: auto;
+    }
+    .footer{
+        height: auto;
+    }
+    .fb1{
+        margin-left: 40px;
+    }
+    .foob{
+        height: 73px;
+        margin-top: 30px;
+    }
+    .fooc{
+        height: 73px;
+        
+    }
+    /* img{
+        width: 80%;
+    } */
+}
+@media screen and (max-width:1100px){
+    .eight1{
+        width: 85%;
+    }
+}
+@media screen and (max-width:960px){
+    .pr1{
+        align-items: flex-start;
+    }
+    .pr1b{
+        margin-top: 24px;
+        height: auto;
+    }
+    .pr1ba{
+        height: auto;
+        justify-content: flex-start;
+        font-size: 48px;
+    }
+    .bo1{
+        font-size: 48px;
+        height: auto;
+    }
+    .pr1bb{
+        height: auto;
+        justify-content: flex-start;
+    }
+    .pr1bc{
+        height: auto;
+        justify-content: flex-start;
+    }
+    .nik{
+        height: auto;
+        align-items: flex-start;
+    }
+    .h5{
+        justify-content: flex-start;
+        font-size: 48px;
+        }
+
+    .h{
+        justify-content: flex-start;
+
+    }
+    .hh{
+        justify-content: flex-start;
+
+    }
+}
+@media screen and (max-width:572px) {
+    .box{
+        width: 69.69%;
+        height: 177px;
+    
+        margin-top: 0px;
+        margin-left: 3%;
+        max-width: 1368px;
+    }
+    .boxa{
+        height: auto;
+        
+    }
+    .boxab{
+        height: auto;
+    }
+    .bo1{
+        height: auto;
+        color: black;
+    }
+    .bo2{
+        height: auto;
+        color: black;
+    }
+    .bo3a{
+        color: white;
+        background-color: black;
+    }
+    .th2{
+        flex-direction: column;
+    }
+    .hoxa1{
+        flex-direction: column;
+    }
+    .th2a{
+        width: 100%;
+    }
+    .aa1t{
+        width: 75%;
+        height: 125px;
+        margin-left: -93.9%;
+        display: flex;
+        flex-direction: column;
+        margin-top: -719px;
+        height: auto;
+    }
+    .fbox1a{
+        width: 40%;
+        height: auto;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .x1a1{
+        height: auto;
+    }
+    .x1a2{
+        height: auto;
+    }
+    .v2{
+        flex-direction: column;
+    }
+    .v2a{
+        width: 100%;
+    }
+    .ox1a2{
+        margin-left: -78.9%;
+        display: flex;
+        flex-direction: column;
+        margin-top: -669px;
+        height: auto;
+    }
+    .ox1a1{
+        height: auto;
+    }
+    .ox1a1a{
+        height: auto;
+    }
+    .eig2{
+        width: 100%;
+        display: flex;
+    }
+    .eig2a{
+        width: 100%;
+        /* padding-left: 20px; */
+    }
+    .eone{
+        width: 100%;
+        height: 24px;
+        margin-bottom: 24px;
+    }
+    .eight1a{
+        display: none;
+    }
+}
+@media screen and (max-width:350px) {
+    .aa1t{
+        margin-top: -562px;
+    }
+    .ox1a2{
+        margin-top: -519px;
+    }
+}
